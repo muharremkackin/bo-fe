@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Source+Sans+Pro:wght@200;300;400;600;700&display=swap');
+body {
+    margin: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+.hidden {
+    display: none!important;
+}
+
+img {
+    width: 400px;
+}
+
+.main-header {
+    height: 74px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2a304a;
+    padding: 0 27px;
+    overflow-x: hidden;
+}
+
+.main-header .navigation {
+    position: fixed;
+    background-color: rgba(42,48,74, 0.96);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+}
+
+.main-header .navigation .navigation-close-btn {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.main-header .navigation .navigation-list {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-header .navigation .navigation-list ul {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.main-header .navigation .navigation-list ul li {
+    list-style: none;
+    width: 400px;
+    display: flex;
+}
+
+.main-header .navigation .navigation-list ul li a {
+    text-align: center;
+    width: 100%;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    margin-bottom: 16px;
+    font-size: 20px;
+    color: white;
+    font-weight: 400;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+}
+
+.main-header .navigation .navigation-list ul li a:hover {
+    color: turquoise;
+    transition: all linear 200ms;
+}
+
+.main-header .navigation .navigation-list ul li a.nav-link {
+    border-bottom: 0.001rem solid #434c73;
+}
+
+.main-header .logo a {
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.main-header .logo a:hover .box {
+    background-color: turquoise;
+    transition: all linear 200ms;
+}
+
+.main-header .logo a:hover .line {
+    color: turquoise;
+    transition: all linear 200ms;
+}
+
+.h-6 {
+    height: 24px;
+}
+
+.w-6 {
+    width: 24px;
+}
+
+.h-8 {
+    height: 32px;
+}
+
+.w-8 {
+    width: 32px;
+}
+
+.main-header .logo a .box {
+    background-color: white;
+    color: #2a304a;
+    padding: 4px 8px;
+}
+
+.main-header .logo a .line {
+    font-weight: bold;
+}
+
+.btn {
+    text-transform: uppercase;
+    background-color: transparent;
+    border: 0;
+    display: flex;
+    color: white;
+    align-items: center;
+    font-weight: 500;
+    font-size: 17px;
+    letter-spacing: 3px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    color: turquoise;
+    transition: all linear 200ms;
+}
+
+.btn .btn-icon {
+    margin-left: 8px;
+}
+
+
+.btn.btn-close {
+    padding: 20px 24px;
+}
+
+.btn.btn-login {
+    text-align: center;
+    justify-content: center;
+    border: 2px solid white;
+}
+
+.btn.btn-login:hover {
+    border-color: turquoise;
+    transition: all linear 200ms;
+}
+/**
+    Flex ->
+    Grid -> Table
+ */
